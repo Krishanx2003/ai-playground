@@ -1,0 +1,84 @@
+{
+  "models": [
+    {
+      "id": "gpt-4-turbo",
+      "name": "GPT-4 Turbo",
+      "provider": "OpenAI",
+      "description": "Most capable GPT-4 model with 128k context",
+      "maxTokens": 128000,
+      "category": "chat"
+    },
+    {
+      "id": "gpt-3.5-turbo",
+      "name": "GPT-3.5 Turbo",
+      "provider": "OpenAI", 
+      "description": "Fast and efficient model for most tasks",
+      "maxTokens": 16384,
+      "category": "chat"
+    },
+    {
+      "id": "claude-3-opus",
+      "name": "Claude 3 Opus",
+      "provider": "Anthropic",
+      "description": "Most powerful Claude model for complex reasoning",
+      "maxTokens": 200000,
+      "category": "chat"
+    },
+    {
+      "id": "claude-3-sonnet",
+      "name": "Claude 3 Sonnet",
+      "provider": "Anthropic",
+      "description": "Balanced performance and speed",
+      "maxTokens": 200000,
+      "category": "chat"
+    },
+    {
+      "id": "claude-3-haiku",
+      "name": "Claude 3 Haiku",
+      "provider": "Anthropic",
+      "description": "Fastest Claude model for simple tasks",
+      "maxTokens": 200000,
+      "category": "chat"
+    },
+    {
+      "id": "gemini-pro",
+      "name": "Gemini Pro",
+      "provider": "Google",
+      "description": "Google's most capable multimodal model",
+      "maxTokens": 32768,
+      "category": "chat"
+    },
+    {
+      "id": "gemini-pro-vision",
+      "name": "Gemini Pro Vision",
+      "provider": "Google",
+      "description": "Multimodal model with vision capabilities",
+      "maxTokens": 32768,
+      "category": "multimodal"
+    },
+    {
+      "id": "llama-2-70b",
+      "name": "Llama 2 70B",
+      "provider": "Meta",
+      "description": "Open-source large language model",
+      "maxTokens": 4096,
+      "category": "open-source"
+    },
+    {
+      "id": "mistral-large",
+      "name": "Mistral Large",
+      "provider": "Mistral AI",
+      "description": "High-performance European AI model",
+      "maxTokens": 32768,
+      "category": "chat"
+    },
+    {
+      "id": "command-r-plus",
+      "name": "Command R+",
+      "provider": "Cohere",
+      "description": "Advanced RAG-optimized model",
+      "maxTokens": 128000,
+      "category": "enterprise"
+    }
+  ]
+}

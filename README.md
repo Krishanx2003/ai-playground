@@ -2,7 +2,9 @@
 
 A comprehensive frontend-only prototype that combines the best features from leading AI interfaces into one polished application. Built with Next.js, TypeScript, Tailwind CSS, and Framer Motion.
 
-![AI Playground Screenshot](https://images.pexels.com/photos/5380664/pexels-photo-5380664.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2)
+![AI Playground Screenshot]
+
+![alt text](<Screenshot (7)-1.png>)
 
 ## Research
 

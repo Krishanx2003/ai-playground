@@ -1,0 +1,70 @@
+{
+  "templates": [
+    {
+      "id": "creative-writing",
+      "name": "Creative Writing",
+      "category": "Writing",
+      "prompt": "Write a captivating short story about a character who discovers they have an unusual superpower. The story should be approximately 500 words and include:\n\n- A relatable protagonist\n- A clear moment of discovery\n- How the power affects their daily life\n- A meaningful resolution\n\nMake it engaging and original.",
+      "parameters": {
+        "temperature": 0.9,
+        "maxTokens": 800,
+        "topP": 0.95
+      }
+    },
+    {
+      "id": "code-review",
+      "name": "Code Review Assistant",
+      "category": "Development",
+      "prompt": "Please review the following code and provide detailed feedback:\n\n```\n[Paste your code here]\n```\n\nFocus on:\n- Code quality and best practices\n- Performance optimizations\n- Security considerations\n- Readability and maintainability\n- Potential bugs or edge cases\n\nProvide specific suggestions for improvement.",
+      "parameters": {
+        "temperature": 0.3,
+        "maxTokens": 1000,
+        "topP": 0.9
+      }
+    },
+    {
+      "id": "business-strategy",
+      "name": "Business Strategy Analysis",
+      "category": "Business",
+      "prompt": "Act as a senior business consultant. Analyze the following business scenario and provide strategic recommendations:\n\n[Describe your business situation, challenge, or opportunity]\n\nPlease provide:\n1. Situation analysis\n2. Key opportunities and threats\n3. Strategic recommendations\n4. Implementation roadmap\n5. Success metrics\n\nBe specific and actionable in your advice.",
+      "parameters": {
+        "temperature": 0.7,
+        "maxTokens": 1200,
+        "topP": 0.9
+      }
+    },
+    {
+      "id": "learning-tutor",
+      "name": "Personal Learning Tutor",
+      "category": "Education",
+      "prompt": "I want to learn about [topic]. Please create a comprehensive learning plan that includes:\n\n1. Learning objectives\n2. Key concepts to master\n3. Recommended learning sequence\n4. Practice exercises or projects\n5. Resources for further study\n6. Assessment methods\n\nAdapt the complexity to my current level: [beginner/intermediate/advanced]",
+      "parameters": {
+        "temperature": 0.6,
+        "maxTokens": 1000,
+        "topP": 0.85
+      }
+    },
+    {
+      "id": "data-analysis",
+      "name": "Data Analysis Helper",
+      "category": "Analytics",
+      "prompt": "Help me analyze the following dataset and extract meaningful insights:\n\n[Describe your data or paste sample data]\n\nPlease provide:\n- Data quality assessment\n- Key patterns and trends\n- Statistical insights\n- Visualization recommendations\n- Actionable conclusions\n- Suggestions for further analysis\n\nExplain your analysis in clear, non-technical language.",
+      "parameters": {
+        "temperature": 0.4,
+        "maxTokens": 1200,
+        "topP": 0.8
+      }
+    },
+    {
+      "id": "problem-solver",
+      "name": "Creative Problem Solver",
+      "category": "General",
+      "prompt": "I'm facing the following challenge: [Describe your problem or situation]\n\nPlease help me by:\n1. Breaking down the problem into components\n2. Identifying root causes\n3. Generating multiple solution approaches\n4. Evaluating pros and cons of each solution\n5. Recommending the best path forward\n6. Identifying potential obstacles and mitigation strategies\n\nThink creatively and consider unconventional approaches.",
+      "parameters": {
+        "temperature": 0.8,
+        "maxTokens": 1000,
+        "topP": 0.9
+      }
+    }
+  ]
+}
