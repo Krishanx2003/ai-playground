@@ -191,15 +191,13 @@ function PlaygroundContent() {
                 <h1 className="text-xl font-bold bg-gradient-to-r from-primary to-primary/80 bg-clip-text text-transparent">
                   AI Playground
                 </h1>
-                <p className="text-xs text-muted-foreground">
-                  Prototype • Frontend Only
-                </p>
+             
               </div>
             </div>
             
             <div className="flex items-center space-x-4">
               <motion.a
-                href="https://github.com"
+                href="https://github.com/Krishanx2003/ai-playground"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="p-2.5 bg-card/50 backdrop-blur-sm border border-border/50 rounded-lg hover:bg-card/80 transition-colors focus:outline-none focus:ring-2 focus:ring-ring focus:ring-offset-2"
